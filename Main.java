@@ -6,7 +6,7 @@ public class Main{
          int choice;
 
          do{
-             System.out.println("Welcome to AnshulTerminal");
+             System.out.println("Welcome to Neo-Terminal");
              System.out.println("\nSelect a game to play:");
              System.out.println("1. CodeBreaker");
              System.out.println("2. SpyDecoder");
