@@ -15,8 +15,7 @@ public class Main{
              System.out.println("5. SnakeGame");
              System.out.println("6. Game2048");
              System.out.println("7. RockPaperScissor");
-             System.out.println("8. Pool8Ball");
-             System.out.println("9. Exit");
+             System.out.println("8. Exit");
 
              System.out.print("\nEnter your choice: ");
              choice = sc.nextInt();
@@ -50,12 +49,8 @@ public class Main{
                  case 7 ->{
                       System.out.println("Launching RockPaperScissor...");
                       RockPaperScissor.start();
-             }
-                 case 8 ->{
-                     System.out.println("Launching Pool8Ball...");
-                     Pool8Ball.main(null);
-                 }
-                 case 9 -> System.out.println("Exiting NeoTerminal... Goodbye!");
+             }  
+                 case 8 -> System.out.println("Exiting NeoTerminal... Goodbye!");
                  default -> System.out.println("Invalid choice! Try again.");
              }
 
