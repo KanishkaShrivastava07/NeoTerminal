@@ -54,12 +54,12 @@ public class Main{
                  default -> System.out.println("Invalid choice! Try again.");
              }
 
-             if(choice != 9){
+             if(choice != 8){
                  System.out.println("\nPress Enter to return to menu....");
                  sc.nextLine(); //consume next line
                  sc.nextLine(); // wait for user
              }
          }
-         while (choice != 9);
+         while (choice != 8);
     }
 }
